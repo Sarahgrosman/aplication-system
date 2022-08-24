@@ -1,0 +1,10 @@
+
+.scrollingDiv {
+    width:33%;
+    height:50%;
+    text–align:right;
+    background–color:#FFCCFF;
+    border:2px inset;
+    overflow–x:scroll;
+    overflow–y:scroll;
+}
