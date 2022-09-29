@@ -1,7 +1,7 @@
-import { set } from 'mongoose'
+
 import React from 'react'
 
-const Aplication = ({aplications,setBool,setIndex,bool,index}) => {
+const Aplication = ({aplications,setBool,setIndex,bool}) => {
    
     
   return (

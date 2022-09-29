@@ -59,10 +59,7 @@ import React from 'react';
      
          <h3>Date of Birth</h3>
       <input type="date" value={min_age} onChange={(e)=>{
-        getAge(e.target.value);
-        
-                                                    
-  }}></input>
+        getAge(e.target.value)}}></input>
       
       <div>
         <p>categories</p>

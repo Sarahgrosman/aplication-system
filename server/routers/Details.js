@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const appsSchema = require("../models/Details");
 const router = new express.Router();
 
-router.post("/save",async (req,res)=>{-
+router.post("/save",async (req,res)=>{
   await appsSchema.save(req.body);
   res.send(req.body,"saved");
 });
